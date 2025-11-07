@@ -1,0 +1,174 @@
+.sgnmodalBackgroundlanding {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+    z-index: 10000000000000;
+  }                        
+  .sgnmodalContainerlanding {
+    border-radius: 12px;
+
+    padding: 50px;
+    margin: 0;
+    position: relative;
+    display: flex;
+    /* width: 30%; */
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(28,29,31);
+  } 
+  .sgnmodalcloselanding {
+    color: white;
+    z-index: 20;
+    background-color: rgba(3, 24, 82, 0.8);   
+    height: 20px;
+  }
+  .sgnmodalcloselanding button {
+    position: absolute;
+    right:1.5em;
+    top:1em;
+    color: rgb(128, 201, 247);
+    font-size: 20px;
+    cursor: pointer;
+    transition: all.2s;
+  }
+ 
+  .sgnmodalcloselanding button:hover{
+    transform: scale(1.1);
+    color: rgb(179, 242, 246);
+  }
+  .sgnmodalContainerlanding::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  
+ 
+  .sgnmodalContainerlanding::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey; */
+    border-radius: 0 10px 10px 0;
+    background-color: transparent;
+    width: 5px;
+  }
+  
+  
+  .sgnmodalContainerlanding::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+  }
+  .sgnmodalContainerlanding h4{
+    color: rgb(193, 190, 190);
+    
+    text-align: center;
+  }
+  .sgnmodalContainerlanding h4 span{
+    color: rgb(14, 207, 251);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all.2s;
+  }
+  .sgnmodalContainerlanding h4 span:hover{
+    color: rgb(138, 226, 246);
+  }
+  .sgnbuttonlanding {
+        /* width: 35%; */
+        padding: 10px 20px;
+        cursor: pointer;
+        display: flex;
+        margin: 1em auto 1em auto;
+        color: rgb(0 0 0);
+        font-weight: 800;
+        border: 0;
+        text-transform: uppercase;
+        font-size: 100%;
+        transition: all 0.6s;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        background-color: rgb(221, 250, 250);
+        background-color: #008970;
+  }
+  .sgnbuttonlanding1 {
+    width: 33%;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: flex;
+    margin: 1em auto 1em auto;
+    color: rgb(0 0 0);
+    font-weight: 800;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 100%;
+    transition: all 0.6s;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color:  #008970;
+    
+  }
+
+  /* @media only screen and (min-width:400px){ */
+    /* .sgnbuttonlanding:hover { */
+      /* background-position: 100% center; */
+      /* outline: 3px ridge rgb(119, 204, 243); */
+      /* color: rgb(9, 14, 63); */
+      /* box-shadow: rgba(118, 116, 116, 0.882) 1px 2px 4px; */
+      /* transform: scale(1.18); */
+    /* } */
+  /* }  */
+  @media only screen and (max-width:1100px) {
+    .sgnmodalContainerlanding{
+      width:40%;
+    }
+  }
+  @media only screen and (max-width:800px) {
+    .sgnmodalContainerlanding{
+      width:50%;
+    }
+    
+  }
+  @media only screen and (max-width:600px) {
+    .sgnmodalContainerlanding{
+      width:65%;
+    }
+
+    
+  }
+  @media only screen and (max-width:400px) {
+    .sgnmodalContainerlanding{
+      width:85%;
+    }
+    .sgnbuttonlanding{
+        color: rgb(9, 14, 63);
+        background-color:rgb(167, 241, 253) ;
+
+    }
+  }
+.confirm-buttons{
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.confirm-buttons button
+{
+  padding: 5px;
+  margin:0px 2px;
+}
+
+@import url('http://fonts.cdnfonts.com/css/century-gothic');
+
+.landing-page-modal-content p{
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 6px 5px 0px 5px;
+}
+
+
