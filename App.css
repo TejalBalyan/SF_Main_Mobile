@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "RoashePersonalUse-jEa4M";
+  src: local("RoashePersonalUse-jEa4M"), url("./Font/RoashePersonalUse-jEa4M.otf") format("opentype");
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
